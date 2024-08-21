@@ -48,7 +48,9 @@ h2 {
 }
 
 img {
-    max-width: 300px; /* Ajusta a largura da imagem para o tamanho da página */
+    
+    max-width: 100px; /* Ajusta a largura da imagem para o tamanho da página */
+    width: 100px
     height: baixo; /* Mantém a proporção da imagem */
     border: 1px solid #ddd; /* Adiciona uma borda sutil às imagens */
     border-radius: 4px; /* Bordas arredondadas para imagens */
