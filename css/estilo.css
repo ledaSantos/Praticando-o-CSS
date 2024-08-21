@@ -63,3 +63,11 @@ footer {
     bottom: 0;
     width: 70%;
 }
+img.map {
+    max-width: 80%; /* Largura máxima dos mapas */
+    height: auto; /* Mantém a proporção da imagem */
+    border: 2px solid #aaa; /* Borda ligeiramente mais espessa e clara para mapas */
+    border-radius: 6px; /* Bordas arredondadas mais acentuadas */
+    margin: 20px auto; /* Margem superior e inferior para separar mapas do texto */
+    display: block; /* Garante que a imagem seja exibida como um bloco centralizado */
+}
