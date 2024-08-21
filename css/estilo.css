@@ -32,7 +32,7 @@ nav ul li a:hover {
 }
 
 main {
-    max-width: 800px; /* Largura máxima do conteúdo principal */
+    max-width: 900px; /* Largura máxima do conteúdo principal */
     margin: 20px auto; /* Margens automáticas para centralizar o conteúdo */
     padding: 20px;
     background-color: #fff; /* Cor de fundo do conteúdo principal */
@@ -47,12 +47,39 @@ h2 {
     color: #007bff; /* Cor dos subtítulos */
 }
 
-img {
-    max-width: 60%; /* Ajusta a largura da imagem para o tamanho da página */
+/* Estilo específico para imagens de mapa */
+img.map {
+    max-width: 80%; /* Largura máxima dos mapas */
     height: auto; /* Mantém a proporção da imagem */
-    border: 1px solid #ddd; /* Adiciona uma borda sutil às imagens */
-    border-radius: 4px; /* Bordas arredondadas para imagens */
-    margin-bottom: 10px; /* Espaçamento abaixo das imagens */
+    border: 2px solid #aaa; /* Borda ligeiramente mais espessa e clara para mapas */
+    border-radius: 6px; /* Bordas arredondadas mais acentuadas */
+    margin: 20px auto; /* Margem superior e inferior para separar mapas do texto */
+    display: block; /* Garante que a imagem seja exibida como um bloco centralizado */
+}
+
+/* Estilo específico para links de guias de viagem */
+.guide-links {
+    text-align: left; /* Alinha o texto à esquerda dentro da seção */
+    max-width: 600px; /* Largura máxima dos links */
+    margin: 20px auto; /* Margens automáticas para centralizar os links */
+}
+
+.guide-links ul {
+    list-style-type: disc; /* Usa marcadores de disco para a lista */
+    padding-left: 20px; /* Espaçamento à esquerda para a lista */
+}
+
+.guide-links li {
+    margin-bottom: 10px; /* Espaçamento entre os itens da lista */
+}
+
+.guide-links a {
+    color: #007bff; /* Cor dos links */
+    text-decoration: none; /* Remove sublinhado dos links */
+}
+
+.guide-links a:hover {
+    text-decoration: underline; /* Sublinha os links ao passar o mouse */
 }
 
 footer {
@@ -61,13 +88,5 @@ footer {
     padding: 10px 0;
     position: fixed; /* Fixa o rodapé na parte inferior da página */
     bottom: 0;
-    width: 70%;
-}
-img.map {
-    max-width: 80%; /* Largura máxima dos mapas */
-    height: auto; /* Mantém a proporção da imagem */
-    border: 2px solid #aaa; /* Borda ligeiramente mais espessa e clara para mapas */
-    border-radius: 6px; /* Bordas arredondadas mais acentuadas */
-    margin: 20px auto; /* Margem superior e inferior para separar mapas do texto */
-    display: block; /* Garante que a imagem seja exibida como um bloco centralizado */
+    width: 100%;
 }
