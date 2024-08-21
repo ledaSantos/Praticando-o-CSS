@@ -32,7 +32,7 @@ nav ul li a:hover {
 }
 
 main {
-    max-width: 900px; /* Largura máxima do conteúdo principal */
+    max-width: 800px; /* Largura máxima do conteúdo principal */
     margin: 20px auto; /* Margens automáticas para centralizar o conteúdo */
     padding: 20px;
     background-color: #fff; /* Cor de fundo do conteúdo principal */
@@ -48,7 +48,7 @@ h2 {
 }
 
 img {
-    max-width: 60%; /* Ajusta a largura da imagem para o tamanho da página */
+    max-width: 400px; /* Ajusta a largura da imagem para o tamanho da página */
     height: auto; /* Mantém a proporção da imagem */
     border: 1px solid #ddd; /* Adiciona uma borda sutil às imagens */
     border-radius: 4px; /* Bordas arredondadas para imagens */
