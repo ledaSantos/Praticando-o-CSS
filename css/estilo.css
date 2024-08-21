@@ -32,7 +32,7 @@ nav ul li a:hover {
 }
 
 main {
-    max-width: 600px; /* Largura máxima do conteúdo principal */
+    max-width: 800px; /* Largura máxima do conteúdo principal */
     margin: 20px auto; /* Margens automáticas para centralizar o conteúdo */
     padding: 20px;
     background-color: #fff; /* Cor de fundo do conteúdo principal */
