@@ -1,12 +1,12 @@
 :root {
-    --primary-color: #3498db; /* Azul */
-    --secondary-color: #e74c3c; /* Vermelho */
-    --tertiary-color: #2ecc71; /* Verde */
+    --primary-color: #3498db; 
+    --secondary-color: #e74c3c; 
+    --tertiary-color: #2ecc71;
 }
 
-/* Aplicando estilos gerais */
+
 body {
-    font-family: Arial, sans-serif; /* Fonte padrão */
+    font-family: Arial, sans-serif; 
     color: #333;
     background-color: #f4f4f4;
     margin: 0;
@@ -14,7 +14,7 @@ body {
 }
 
 header {
-    background-color: var(--primary-color); /* Azul */
+    background-color: var(--primary-color); 
     padding: 10px;
     text-align: center;
 }
@@ -33,12 +33,12 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
-    font-family: 'Verdana', sans-serif; /* Fonte para links */
+    font-family: 'Verdana', sans-serif; 
 }
 
 nav ul li a:hover {
     text-decoration: underline;
-    color: var(--secondary-color); /* Vermelho ao passar o mouse */
+    color: var(--secondary-color);
 }
 
 main {
@@ -47,23 +47,23 @@ main {
 }
 
 .flag {
-    max-width: 100%;
-    height: auto;
-    border: 5px solid var(--tertiary-color); /* Verde para bordas das bandeiras */
+    max-width: 60%; 
+    height: auto; 
+    border: 5px solid var(--tertiary-color);
+    margin: 20px auto; 
+    display: block; 
 }
-
 h1 {
-    font-family: 'Times New Roman', serif; /* Fonte para títulos */
-    color: var(--primary-color); /* Azul */
-}
+    font-family: 'Times New Roman', serif; 
+    color: var(--primary-color); 
 
 p {
-    font-family: 'Courier New', monospace; /* Fonte para parágrafos */
-    color: var(--secondary-color); /* Vermelho */
+    font-family: 'Courier New', monospace;
+    color: var(--secondary-color);
 }
 
 footer {
-    background-color: var(--primary-color); /* Azul */
+    background-color: var(--primary-color);
     color: white;
     text-align: center;
     padding: 10px;
