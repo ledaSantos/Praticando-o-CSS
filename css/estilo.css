@@ -38,7 +38,7 @@ nav ul li a {
 
 nav ul li a:hover {
     text-decoration: underline;
-    color: var(--secondary-color);
+    color: var;
 }
 
 main {
@@ -49,30 +49,30 @@ main {
 .flag {
     max-width: 60%; 
     height: auto; 
-    border: 5px solid var(--tertiary-color);
+    border: 5px solid var;
     margin: 20px auto; 
     display: block; 
 }
 h1 {
     font-family: 'Times New Roman', serif; 
-    color: var(--primary-color); }
+    color: var; }
 p {
     font-family: 'Courier New', monospace;
-    color: var(--secondary-color);
+    color: var;
 }
 
 footer {
-    background-color: var(--primary-color);
+    background-color: var;
     color: white;
     text-align: center;
     padding: 10px;
 }
 
 img.map {
-    max-width: 80%; /* Largura máxima dos mapas */
-    height: auto; /* Mantém a proporção da imagem */
-    border: 2px solid #aaa; /* Borda ligeiramente mais espessa e clara para mapas */
-    border-radius: 6px; /* Bordas arredondadas mais acentuadas */
-    margin: 20px auto; /* Margem superior e inferior para separar mapas do texto */
-    display: block; /* Garante que a imagem seja exibida como um bloco centralizado */
+    max-width: 80%; 
+    height: auto; 
+    border: 2px solid #aaa; 
+    border-radius: 6px; 
+    margin: 20px auto; 
+    display: block;
 }
